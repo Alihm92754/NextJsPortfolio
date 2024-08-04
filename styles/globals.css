@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .contactInput {
+    @apply w-full text-base text-white placeholder:text-textLight border border-b-[1px] border-transparent border-b-textYellow py-3 px-2 outline-none focus-within:border-[1px] focus-within:border-textYellow duration-100 bg-zinc-800;
+  }
+}
+
+.scrollbarHide::-webkit-scrollbar {
+  display: none;
+}
+.active {
+  color: #F4AF00;
+}
+
+.link {
+  position: relative;
+  transition: color 0.25s;
+}
+
+.link:hover {
+  color: white;
+}
+
+.link::after {
+  position: absolute;
+  content: "";
+  inset: 0;
+  background-color: #F4AF00;
+  transform: scaleY(0);
+  z-index: -1;
+  transition: transform 0.45s;
+  border-radius: 5px;
+}
+
+.link:hover::after {
+  transform: scaleY(1.5);
+}
