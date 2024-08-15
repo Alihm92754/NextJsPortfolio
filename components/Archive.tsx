@@ -21,42 +21,42 @@ const Archive = () => {
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
           listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://www.educareenglishlearningacademy.com/"
+          link="https://cbum-fitness.com/"
         />
         <ArchiveCard
           title="Lorem Ipsum"
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
           listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://www.noormohmmad.com/"
+          link="https://cbum-fitness.com/"
         />
         <ArchiveCard
           title="Lorem Ipsum"
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
           listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://reactbd.com/"
+          link="https://cbum-fitness.com/"
         />
         <ArchiveCard
           title="Lorem Ipsum"
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
           listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://amazonclone.reactbd.com/"
+          link="https://cbum-fitness.com/"
         />
         <ArchiveCard
           title="Lorem Ipsum"
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
               laudantium velit qui sint non, voluptates quo a veritatis."
           listItem={["Nextjs", "Tailwind CSS", "next-router"]}
-          link="https://jsondata.reactbd.com/"
+          link="https://cbum-fitness.com/"
         />
         <ArchiveCard
           title="Lorem Ipsum"
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
           listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://portfolioone.reactbd.com/"
+          link="https://cbum-fitness.com/"
         />
 
         {showMore && (
@@ -71,7 +71,7 @@ const Archive = () => {
                 des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
                 listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-                link="https://orebishopping.reactbd.com/"
+                link="https://www.hanyrambod.com/"
               />
             </motion.div>
             <motion.div
@@ -84,7 +84,7 @@ const Archive = () => {
                 des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
                 listItem={["Reactjs", "Tailwind CSS", "redux-toolkit"]}
-                link="https://noorshop.netlify.app/"
+                link="https://www.hanyrambod.com/"
               />
             </motion.div>
             <motion.div
@@ -97,7 +97,7 @@ const Archive = () => {
                 des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
                 listItem={["Nextjs", "Tailwind CSS", "next-auth", "firebase"]}
-                link="https://my-blog-delta-eight.vercel.app/"
+                link="https://www.hanyrambod.com/"
               />
             </motion.div>
           </>
