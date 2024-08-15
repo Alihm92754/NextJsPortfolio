@@ -50,8 +50,14 @@ const Navbar = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.1 }}
+          className="flex items-center"
         >
-          <Image style={{ width: '200px', height: 'auto' }} src={logo} alt="logo" />
+          <Image 
+            className="w-32 md:w-32 lg:w-40 xl:w-48" // Responsive width classes
+            src={logo}
+            alt="logo"
+            layout="intrinsic" 
+          />
         </motion.div>
       </Link>
       {/* ============ Logo End here ============== */}

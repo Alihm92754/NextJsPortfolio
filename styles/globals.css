@@ -6,6 +6,24 @@
   .contactInput {
     @apply w-full text-base text-white placeholder:text-textLight border border-b-[1px] border-transparent border-b-textYellow py-3 px-2 outline-none focus-within:border-[1px] focus-within:border-textYellow duration-100 bg-zinc-800;
   }
+  .bannerBackground {
+    position: relative;
+    z-index: 0;
+  }
+
+  .bannerBackground::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/assets/images/wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2; /* Adjust opacity as needed */
+    z-index: -1;
+  }
 }
 
 .scrollbarHide::-webkit-scrollbar {
